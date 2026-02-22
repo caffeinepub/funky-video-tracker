@@ -1,0 +1,20 @@
+{
+  "frontend/src/App.tsx": "Main application component with TanStack Router setup, defining routes for video list, admin panel, and admin dashboard, wrapped with ThemeProvider and including ProfileSetupModal.",
+  "frontend/src/components/Layout.tsx": "App layout wrapper with responsive header containing the uploaded neon green arrow logo image, navigation menu, login button, and footer with attribution link to caffeine.ai, branded as \"Learning Videos\".",
+  "frontend/src/components/LoginButton.tsx": "Authentication button component using Internet Identity hook to handle login/logout with loading states and query cache clearing.",
+  "frontend/src/components/ProfileSetupModal.tsx": "Modal dialog that prompts first-time authenticated users to set up their profile, preventing modal flash on subsequent logins.",
+  "frontend/src/components/AccessDeniedScreen.tsx": "Full-screen component displaying access denied message for non-admin users attempting to access restricted pages.",
+  "frontend/src/pages/VideoList.tsx": "Main video feed page displaying scrollable list of videos with authentication guard and background image from generated assets.",
+  "frontend/src/components/VideoCard.tsx": "Card component displaying video thumbnail, title, external link, and three status selection buttons with current user status highlighting.",
+  "frontend/src/components/StatusButton.tsx": "Reusable button component for video watch status with three funky color variants (watched, later, skip) and selected state styling.",
+  "frontend/src/pages/AdminPanel.tsx": "Admin-only page with form for adding new videos, including URL input with auto-thumbnail generation for YouTube and manual entry for Instagram.",
+  "frontend/src/components/ThumbnailPreview.tsx": "Component displaying live preview of video thumbnail as admin types URL, with fallback for missing thumbnails.",
+  "frontend/src/pages/AdminDashboard.tsx": "Admin dashboard page showing engagement statistics and records table with decorative header image from generated assets.",
+  "frontend/src/components/EngagementTable.tsx": "Table component displaying user engagement data with filtering options and colorful status badges.",
+  "frontend/src/hooks/useUserRole.ts": "Custom hook fetching current user's role and admin status from backend using React Query.",
+  "frontend/src/hooks/useQueries.ts": "Collection of React Query hooks for all backend operations including profile management, video CRUD, status tracking, and admin dashboard data.",
+  "frontend/src/utils/videoUrlParser.ts": "Utility functions to extract video IDs from YouTube and Instagram URLs and generate thumbnail URLs for YouTube videos.",
+  "frontend/src/index.css": "Global styles with funky OKLCH color system featuring vibrant chart colors (hot pink, lime green, orange, purple, cyan) for both light and dark modes.",
+  "frontend/tailwind.config.js": "Tailwind configuration extending theme with custom funky color palette mapped to OKLCH CSS variables and responsive design utilities.",
+  "frontend/index.html": "HTML entry point with updated page title \"Learning Videos\" displayed in browser tab."
+}

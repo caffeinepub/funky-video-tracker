@@ -1,0 +1,175 @@
+{
+  "schemaVersion": "1.0.0",
+  "projectStateVersion": 7,
+  "summary": "A mobile app for tracking learning video engagement from YouTube and Instagram Reels. Features admin panel for adding video links with automatic thumbnails, user watch status tracking (watched/watch later/already watched), push notifications for new videos and 24-hour reminders, and admin dashboard to view user engagement records.",
+  "architectural_notes": [
+    "Mobile app with funky, colorful visual design",
+    "Admin role for content management",
+    "User role for video consumption and status tracking",
+    "Integration with YouTube and Instagram APIs for thumbnail extraction",
+    "Push notification system for new content and reminders",
+    "Database tracking user-video engagement history"
+  ],
+  "known_issues": [],
+  "isFixRequest": false,
+  "existing_features": [
+    {
+      "id": "feature-create-an-admin-authentication-system-that-allows-designated-users-to-access-admin-only-features-for-managing-video-links",
+      "title": "Create an admin authentication system that allows designated users to access admin-only features for managing video links",
+      "reqIds": [
+        "REQ-1"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-implement-admin-panel-where-admins-can-paste-youtube-or-instagram-reels-video-links-and-submit-them-to-the-system",
+      "title": "Implement admin panel where admins can paste YouTube or Instagram Reels video links and submit them to the system",
+      "reqIds": [
+        "REQ-2"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-automatically-extract-and-display-youtube-thumbnails-for-youtube-links-and-instagram-cover-images-for-instagram-reels-links-when-admin-pastes-a-video-url",
+      "title": "Automatically extract and display YouTube thumbnails for YouTube links and Instagram cover images for Instagram Reels links when admin pastes a video URL",
+      "reqIds": [
+        "REQ-3"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-create-main-view-that-displays-a-scrollable-list-of-all-video-links-with-their-thumbnails-ordered-by-most-recent-first",
+      "title": "Create main view that displays a scrollable list of all video links with their thumbnails, ordered by most recent first",
+      "reqIds": [
+        "REQ-5"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-for-each-video-in-the-list-provide-three-selectable-watch-status-options-yeah-i-ve-watched-it-i-ll-watch-it-later-and-no-i-don-t-want-to-watch-it-i-ve-already-watched-it",
+      "title": "For each video in the list, provide three selectable watch status options: 'Yeah, I've watched it', 'I'll watch it later', and 'No, I don't want to watch it, I've already watched it'",
+      "reqIds": [
+        "REQ-6"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-create-admin-dashboard-view-that-displays-engagement-records-showing-which-users-have-watched-which-videos-and-their-selected-watch-statuses",
+      "title": "Create admin dashboard view that displays engagement records showing which users have watched which videos and their selected watch statuses",
+      "reqIds": [
+        "REQ-8"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-design-the-entire-app-interface-with-a-funky-colorful-visual-theme-featuring-vibrant-colors-playful-typography-and-energetic-design-elements-that-work-well-on-mobile-devices",
+      "title": "Design the entire app interface with a funky, colorful visual theme featuring vibrant colors, playful typography, and energetic design elements that work well on mobile devices",
+      "reqIds": [
+        "REQ-10"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-update-the-logo-link-text-in-the-header-navigation-from-funky-video-tracker-to-learning-videos-at-xpath-html-1-body-1-div-1-header-1-div-1-div-1-a-1",
+      "title": "Update the logo link text in the header navigation from 'Funky Video Tracker' to 'Learning Videos' at XPath /html[1]/body[1]/div[1]/header[1]/div[1]/div[1]/a[1]",
+      "reqIds": [
+        "REQ-11"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-update-the-html-document-title-from-funky-video-tracker-to-learning-videos-in-frontend-index-html",
+      "title": "Update the HTML document title from 'Funky Video Tracker' to 'Learning Videos' in frontend/index.html",
+      "reqIds": [
+        "REQ-12"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-replace-the-header-logo-image-element-at-xpath-html-1-body-1-div-1-div-1-header-1-div-1-div-1-img-1-in-the-layout-component-with-the-uploaded-image-file-showing-the-neon-green-arrow-design-and-learning-videos-text",
+      "title": "Replace the header logo image element at XPath /html[1]/body[1]/div[1]/div[1]/header[1]/div[1]/div[1]/img[1] in the Layout component with the uploaded image file showing the neon green arrow design and 'LEARNING VIDEOS' text",
+      "reqIds": [
+        "REQ-13"
+      ],
+      "version": 1
+    }
+  ],
+  "new_feature_requests": [
+    {
+      "id": "AR-1",
+      "summary": "Admin panel to paste and manage YouTube and Instagram Reel links",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-2",
+      "summary": "Automatic thumbnail/cover extraction from video links",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-3",
+      "summary": "Push notifications to all users when new video link is added",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-4",
+      "summary": "Main view displaying list of video links with thumbnails",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-5",
+      "summary": "User watch status options: 'Yeah, I've watched it', 'I'll watch it later', 'No, I don't want to watch it, I've already watched it'",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-6",
+      "summary": "Track and record which users have watched which videos",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-7",
+      "summary": "Admin dashboard to view user engagement records",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-8",
+      "summary": "24-hour reminder notifications for unwatched videos",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-12",
+      "summary": "Send push notifications to all registered users immediately when admin adds a new video link to the system",
+      "reqIds": [
+        "REQ-4"
+      ],
+      "status": "pending"
+    },
+    {
+      "id": "AR-15",
+      "summary": "Track and store which users have selected which watch status for each video, including timestamps of when selections were made",
+      "reqIds": [
+        "REQ-7"
+      ],
+      "status": "pending"
+    },
+    {
+      "id": "AR-17",
+      "summary": "Implement automated reminder notification system that sends push notifications to users who have not selected any watch status for a video within 24 hours of that video being posted",
+      "reqIds": [
+        "REQ-9"
+      ],
+      "status": "pending"
+    }
+  ],
+  "gameProjectType": "none",
+  "projectName": "Funky Video Tracker",
+  "clarification_mode": "instant",
+  "clarification_rounds": 0
+}

@@ -1,0 +1,25 @@
+{
+  "kind": "feature_evidence_report",
+  "features": [
+    {
+      "featureId": "feature-replace-the-header-logo-image-element-at-xpath-html-1-body-1-div-1-div-1-header-1-div-1-div-1-img-1-in-the-layout-component-with-the-uploaded-image-file-showing-the-neon-green-arrow-design-and-learning-videos-text",
+      "featureTitle": "Replace the header logo image element at XPath /html[1]/body[1]/div[1]/div[1]/header[1]/div[1]/div[1]/img[1] in the Layout component with the uploaded image file showing the neon green arrow design and 'LEARNING VIDEOS' text",
+      "files": [
+        "frontend/src/components/Layout.tsx"
+      ],
+      "components": [
+        "authorization@4.0.0",
+        "blob-storage@4.0.0",
+        "core-infrastructure@1.0.2",
+        "shadcn-ui@1.0.0",
+        "build-template-react@1.0.0",
+        "initial-app@1.0.0",
+        "github-export-icp-cli@1.0.0"
+      ],
+      "testIds": [
+        "REQ-13"
+      ],
+      "confidence": "high"
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "kind": "build_request",
+  "title": "Replace header logo with uploaded neon green arrow design",
+  "projectName": "Learning Videos",
+  "priority": "normal",
+  "requirements": [
+    {
+      "id": "REQ-13",
+      "text": "Replace the header logo image element at XPath /html[1]/body[1]/div[1]/div[1]/header[1]/div[1]/div[1]/img[1] in the Layout component with the uploaded image file showing the neon green arrow design and 'LEARNING VIDEOS' text",
+      "target": "frontend",
+      "source": {
+        "messageIds": [
+          "msg-user-final"
+        ],
+        "quotes": [
+          "Start building it"
+        ]
+      },
+      "acceptanceCriteria": [
+        "The header logo image is replaced with the uploaded neon green arrow design",
+        "The logo displays correctly at the top left of the header",
+        "The image maintains proper dimensions and alignment within the header layout",
+        "The logo is visible on both mobile and desktop views"
+      ]
+    }
+  ],
+  "constraints": [
+    "Use the exact uploaded image file provided by the user",
+    "Update only the image element at the specified XPath location",
+    "Maintain existing header layout and styling"
+  ],
+  "nonGoals": [
+    "Modifying other header elements beyond the logo image",
+    "Changing the header layout or navigation structure",
+    "Adding new branding elements"
+  ],
+  "imageRequirements": {
+    "required": [],
+    "edits": []
+  }
+}
